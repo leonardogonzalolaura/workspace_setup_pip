@@ -1,0 +1,5 @@
+include pipsetup/templates/*
+include pipsetup/templates/*.cfg
+include pipsetup/templates/*.md
+include pipsetup/templates/*.txt
+include pipsetup/templates/*.in
