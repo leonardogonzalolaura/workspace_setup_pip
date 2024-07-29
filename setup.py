@@ -1,8 +1,10 @@
 from setuptools import setup, find_packages
+import setuptools_scm
 
 setup(
     name="pipsetup",
-    version="0.1.0",
+    use_scm_version=True,
+    setup_requires=["setuptools>=42", "setuptools_scm"],
     packages=find_packages(include=['pipsetup', 'pipsetup.*']),
     include_package_data=True,
     package_data={
